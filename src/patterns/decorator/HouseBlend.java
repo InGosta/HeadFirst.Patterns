@@ -3,12 +3,12 @@ package patterns.decorator;
 public class HouseBlend extends Bevarage{
 
     public HouseBlend(){
-        description = "Most Excellent HouseBlend";
+        description = "House Blend Coffee";
     }
-    private double cost = 1700;
+    private double cost = 200;
     @Override
     public double cost() {
 
-        return super.cost() + cost;
+        return cost;
     }
 }

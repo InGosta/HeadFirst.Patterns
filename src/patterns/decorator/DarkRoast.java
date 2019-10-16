@@ -8,6 +8,6 @@ public class DarkRoast extends Bevarage {
     @Override
     public double cost() {
 
-        return super.cost() + cost;
+        return cost;
     }
 }
